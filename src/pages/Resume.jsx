@@ -66,7 +66,7 @@ export default function Resume() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://localhost:5000/api/users/resume",
+        "https://portfoliomanager-production-4e0af0e3.up.railway.app/api/users/resume",
         {
           headers: {
             Authorization: `Bearer ${token}`,

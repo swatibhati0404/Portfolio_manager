@@ -119,7 +119,7 @@ export default function FacultyDashboard() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api${url}`,
+        `https://portfoliomanager-production-4e0af0e3.up.railway.app/api${url}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

@@ -100,7 +100,7 @@ export default function StudentProjects() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/artifacts/${projectId}/file`,
+        `https://portfoliomanager-production-4e0af0e3.up.railway.app/api/artifacts/${projectId}/file`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
